@@ -143,6 +143,55 @@ footer {
   box-shadow: -2px 0px 1px 0px rgba(50, 50, 50, 0.75);
 }
 
+#create {
+  padding: 30px;
+  background-color: lemonchiffon;
+}
+
+#create h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+#create .label_row {
+  flex-grow: 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#create .label_row label {
+  width: 100px;
+}
+
+#create .label_row input {
+  width: 300px;
+  padding: 3px 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+#create .label_row input:focus {
+  outline: none;
+}
+
+#create .label_row select {
+  text-transform: capitalize;
+}
+
+#create .new {
+  margin: 35px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  background-color: darkblue;
+  border-radius: 10px;
+}
+
+#create .new:hover {
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
