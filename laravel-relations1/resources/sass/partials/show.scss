@@ -1,0 +1,39 @@
+#show {
+    padding: 30px;
+    background-color: lemonchiffon;
+
+    h1 {
+        margin: 20px;
+        text-align: center;
+    }
+
+    h1,
+    h3,
+    h4,
+    h5 {
+        text-transform: capitalize;
+    }
+
+    .car_list {
+        border-top: 1px solid #000;
+
+        h2 {
+            margin-top: 15px;
+        }
+
+        ul li {
+            margin-top: 10px;
+            margin-right: 20px;
+
+            .car {
+                padding: 5px;
+                background-color: #fff;
+                border-left: 3px solid #000;
+                border-radius: 8px;
+                -webkit-box-shadow: -2px 0px 1px 0px rgba(50, 50, 50, 0.75);
+                -moz-box-shadow: -2px 0px 1px 0px rgba(50, 50, 50, 0.75);
+                box-shadow: -2px 0px 1px 0px rgba(50, 50, 50, 0.75);
+            }
+        }
+    }
+}

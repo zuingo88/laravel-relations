@@ -1,0 +1,34 @@
+@import "partials/flex.scss";
+@import "partials/header.scss";
+@import "partials/footer.scss";
+@import "partials/home.scss";
+@import "partials/show.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}

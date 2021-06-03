@@ -1,0 +1,174 @@
+/* regole flex */
+
+.flex {
+  display: flex;
+}
+
+.flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_col_rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.just_start {
+  justify-content: flex-start;
+}
+
+.just_cen {
+  justify-content: center;
+}
+
+.just_end {
+  justify-content: flex-end;
+}
+
+.space_bet {
+  justify-content: space-between;
+}
+
+.align_cen {
+  align-items: center;
+}
+
+.align_end {
+  align-items: flex-end;
+}
+
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+}
+
+footer {
+  padding: 10px 0;
+  border-top: 1px solid #000;
+}
+
+#home {
+  padding: 30px;
+  background-color: lemonchiffon;
+}
+
+#home h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+#home ul {
+  width: 100%;
+}
+
+#home ul li {
+  width: 50%;
+}
+
+#home ul li .card {
+  margin: 5px;
+  padding: 10px;
+  background-color: lightcoral;
+  border: solid 1px black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#home ul li .card:hover {
+  color: white;
+  background-color: black;
+}
+
+#home ul li .card h3 {
+  text-transform: capitalize;
+  border-bottom: solid 1px black;
+}
+
+#home ul li .card p {
+  text-transform: capitalize;
+}
+
+#home ul li .card a:hover {
+  color: black;
+  background-color: white;
+}
+
+#show {
+  padding: 30px;
+  background-color: lemonchiffon;
+}
+
+#show h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+#show h1,
+#show h3,
+#show h4,
+#show h5 {
+  text-transform: capitalize;
+}
+
+#show .car_list {
+  border-top: 1px solid #000;
+}
+
+#show .car_list h2 {
+  margin-top: 15px;
+}
+
+#show .car_list ul li {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#show .car_list ul li .car {
+  padding: 5px;
+  background-color: #fff;
+  border-left: 3px solid #000;
+  border-radius: 8px;
+  box-shadow: -2px 0px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
